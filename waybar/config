@@ -16,7 +16,6 @@
         "mpd",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
         "battery",
         "battery#bat2",
         "clock",
