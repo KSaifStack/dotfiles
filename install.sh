@@ -18,7 +18,7 @@ if ! grep -q "Fedora" /etc/os-release 2>/dev/null; then
 fi
 
 # ── Symlink configs ───────────────────────────────────────────────────────────
-log "Linking configs...."
+log "Linking configs..."
 
 link() {
   local src="$DOTFILES_DIR/$1"
