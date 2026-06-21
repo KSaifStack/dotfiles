@@ -83,19 +83,9 @@ sudo dnf install -y \
   network-manager-applet \
   blueman \
   pavucontrol \
-  polkit-gnome \
+  polkit-kde \
   nwg-look
 
-# ── Intel-only packages ───────────────────────────────────────────────────────
-if grep -q "GenuineIntel" /proc/cpuinfo; then
-  log "Intel CPU detected — installing Intel-specific packages..."
-  sudo dnf install -y \
-    intel-lpmd \
-    intel-media-driver \
-    libva-intel-driver
-else
-  warn "Non-Intel CPU — skipping intel-lpmd, intel-media-driver"
-fi
 
 # ── Optional packages ─────────────────────────────────────────────────────────
 log "Installing optional packages..."
