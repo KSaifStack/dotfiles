@@ -2,7 +2,7 @@
 
 # Dotfiles
 
-<img width="480" height="270" alt="OfficalLarpp-fixed" src="https://github.com/user-attachments/assets/a5f0e777-2063-49a6-a9ed-c3b36e0f0722" />
+<img width="480" height="270" alt="OfficalLarpp-fixed(1)" src="https://github.com/user-attachments/assets/6d0648b6-c258-48fe-bc3e-0afc063c6ca2" />
 
 </div>
 
